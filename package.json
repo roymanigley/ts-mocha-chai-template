@@ -1,0 +1,26 @@
+{
+  "name": "ts-mocha-chai-template",
+  "version": "1.0.0",
+  "description": "npm i typescript node-fetch @types/node @types/node-fetch mocha chai ts-node @types/mocha @types/chai -D && npx tsc --init --rootDir src --outDir dist && mkdir -p src/main src/test",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main/Main.js",
+    "test": "npx mocha -r ts-node/register src/test/**.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.22",
+    "@types/node-fetch": "^2.5.8",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "node-fetch": "^2.6.1",
+    "node-typescript": "^0.1.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
